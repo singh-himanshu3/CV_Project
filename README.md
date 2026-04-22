@@ -17,7 +17,7 @@ The framework achieves average PSNR gains of **+3.93 dB** on daytime scenes and 
 
 ## Architecture
 
-![Architecture](assets/architecture.png)
+![Architecture](architecture.png)
 
 The pipeline follows a three-stage design. The input image is first cleaned of impulse noise via a median filter, then passed through the fine-tuned SCUNet using a memory-efficient tiled inference engine, and finally refined through a hybrid DSP post-processing head operating in the LAB color space. The SCUNet encoder is frozen during training and only the decoder layers (`m_up1`, `m_up2`, `m_up3`, `m_tail`) are fine-tuned on the CCTV-specific noise domain.
 
