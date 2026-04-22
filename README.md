@@ -20,7 +20,7 @@ The pipeline integrates a **Swin-Transformer UNet (SCUNet)** with a classical DS
 
 Due to repository file size constraints, the custom-trained `.pth` SCUNet weights are hosted externally. 
 
-**[Download Pre-trained SCUNet Weights]( https://drive.google.com/file/d/1Z9e4bhXhA74gvK-cRvQKXavDGFOO3mAD/view?usp=sharing)**
+**[Download Pre-trained SCUNet Weights](https://drive.google.com/file/d/12J2rdPImvxzhcLVL65QrALe7AfHlMBdG/view?usp=sharing)**
 
 *Note: The weights file must be downloaded and mounted to your active environment prior to executing the inference scripts.*
 
